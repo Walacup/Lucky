@@ -17,6 +17,7 @@ public class Program
     static Color wardrobeColor = new Color(128, 90, 41, 255); // Wardrobe color (#805a29)
     static Color chairColor = new Color(140, 108, 76, 255); // Chair color (#8c6c4c)
     static Color floorColor = new Color(33, 24, 14, 255); // Custom color (#21180e)
+    static Color someColor = new Color(122, 99, 70, 255); // Custom color (#7a6346)
 
     static void Main()
     {
@@ -85,6 +86,6 @@ public class Program
     static void DrawPlayer()
     {
         // Draw the player
-        Raylib.DrawRectangleV(playerPosition, new Vector2(playerSize, playerSize), playerColor);
+        Raylib.DrawRectangleV(playerPosition, new Vector2(playerSize, playerSize), someColor);
     }
 }
